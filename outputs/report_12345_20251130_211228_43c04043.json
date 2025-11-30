@@ -1,0 +1,23 @@
+{
+  "user_id": "12345",
+  "pothole_detected": true,
+  "confidence": 0.88,
+  "boxes": [
+    [
+      55,
+      81,
+      154,
+      127
+    ]
+  ],
+  "severity": {
+    "score": 3,
+    "label": "Medium",
+    "explanation": "confidence=0.88, area=4554"
+  },
+  "location": {
+    "address": "Approximate location at (28.70410, 77.10250)",
+    "ward": "Ward 12",
+    "place_id": null
+  }
+}

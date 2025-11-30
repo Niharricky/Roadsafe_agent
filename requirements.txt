@@ -1,0 +1,7 @@
+pillow
+numpy
+opencv-python
+reportlab
+requests
+nbformat
+canvas
