@@ -10,6 +10,54 @@ This repository contains a modular, easy-to-run implementation of the RoadSafe A
 - MemoryBank (JSON-backed)
 
 Run locally or in Kaggle. No API keys required for the default mock workflow.
+🧠 Core Features
+🔍 Autonomous Pothole Detector Agent
+
+The main agent receives an image, analyzes road surfaces, and determines:
+
+Whether a pothole is present
+
+Severity level
+
+Bounding-box region (approximate)
+
+Confidence score
+
+Explanation of visual cues
+
+🧰 Custom Tools
+
+Tools are implemented to handle:
+
+Image loading
+
+Image preprocessing
+
+Running detection logic
+
+Visualization support
+
+Saving structured output
+
+💾 Memory
+
+The system uses a memory backend (memory/) so the agent can:
+
+Recall previous interactions
+
+Improve reasoning consistency
+
+Reduce hallucinations
+
+🧪 Tests
+
+The tests/ folder contains example images and test scripts that verify:
+
+Tool function correctness
+
+Agent decision workflow
+
+End-to-end pothole detection
 
 ## Quickstart (local)
 
