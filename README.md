@@ -32,3 +32,10 @@ Run locally or in Kaggle. No API keys required for the default mock workflow.
 
 Outputs will be saved under `outputs/`.
 
+4.## Environment Setup
+Create a `.env` file in the project root with your own API keys:
+
+GOOGLE_API_KEY=your_key_here
+MAPS_API_KEY=your_key_here
+
+
