@@ -28,6 +28,7 @@ Run locally or in Kaggle. No API keys required for the default mock workflow.
    ```bash
    python agents/main_runner.py --image tests/example_pothole.jpg --lat 28.7031 --lon 77.0219 --user_id test_user
    ```
+   if any other image change the name of example_pothole.jpg to that image name
 
 Outputs will be saved under `outputs/`.
 
